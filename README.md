@@ -1,17 +1,28 @@
-<h1>wfSpy</h1>
+## wfSpy 2022
 
-<p>wfSpy is the open source Windows Forms spying utility created way back in 2003 by <a href="http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=15383">Rama Krishna Vavilala</a>. <a href="http://www.codeproject.com/Articles/4814/A-simple-Windows-forms-properties-spy">Here</a> is the original CodeProject article.</p>
+## Update
 
-<p>It allows you to spy/browse the window hierarchy of a running Windows Forms application (without the need for a debugger) … and to change properties as well.</p>
+This version of wfSpy is now available for Visual Studio 2022, converted to .NET Framework 4.8. Basically this refreshed version WORKS. The other ones kind of don't anymore, considering they throw exceptions. So please enjoy this refreshed version.
 
-I work for <a href="http://www.starkey.com/">Starkey Laboratories</a>, and in my work there, we modified and enhanced wfSpy (and continue to do so) for our purposes. I have an <a href="http://www.cplotts.com/2009/10/28/an-ode-to-wfspy/">article</a> at my blog which goes into the few, but nice, features that we added.
+## Thank you
 
-<h2>.NET 1.1, 2.0, 4.0 Versions</h2>
+Big thanks to the original creators of the wfSpy project.
 
-<p>I have checked in (and tagged) three different versions ... each corresponding to the version of .NET CLR that it works with. That is, if you have a .NET 1.1 application that hasn't been converted to a more recent version of the .NET Framework ... you will need to get and build that version of the utility.</p>
+## Description
 
-<p>The master branch currently is the .NET 4.0 version of the utility ... i.e. the latest released version of the framework as of this writing. I speculate that wfSpy will need to be modified yet again when .NET 4.5 releases since there is a new version of the CLR coming with .NET 4.5.</p>
+wfSpy is the open source Windows Forms spying utility created way back in 2003 by  href="http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=15383" by Rama Krishna Vavilala. 
 
-<h2>x86 or x64</h2>
+## Purpose
 
-<p>Can spy on eiter x86 or x64, but only as compiled i.e.: there are currently no support for using the 64-bit version to spy on 32-bit windows. It shouldn't be too hard, though. If you do get it to work, please contribute those changes back to this project.</p>
+It allows you to spy/browse the window hierarchy of a running Windows Forms application (without the need for a debugger) … and to change properties as well.<
+
+# Capabilities
+
+Can spy on eiter x86 or x64, but only as compiled.
+
+# Releases 
+
+Please go to releases to download latest version of the tool
+
+# Last modified
+2022/05/13

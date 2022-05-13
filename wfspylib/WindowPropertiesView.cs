@@ -1,17 +1,12 @@
 using System;
-using System.Collections;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace wfspy
 {
-	/// <summary>
-	/// Summary description for WindowsPropertyView.
-	/// </summary>
-	public class WindowPropertiesView : System.Windows.Forms.UserControl, IHookInstall 
+    /// <summary>
+    /// Summary description for WindowsPropertyView.
+    /// </summary>
+    public class WindowPropertiesView : UserControl, IHookInstall 
 	{
 		private System.Windows.Forms.PropertyGrid propertyGrid1;
 		private System.Windows.Forms.Timer timer1;

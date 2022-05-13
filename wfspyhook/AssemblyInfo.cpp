@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "pch.h"
 
 using namespace System::Reflection;
 using namespace System::Runtime::CompilerServices;
@@ -9,13 +9,13 @@ using namespace System::Runtime::CompilerServices;
 // associated with an assembly.
 //
 [assembly:AssemblyTitleAttribute("")];
-[assembly:AssemblyDescriptionAttribute("")];
-[assembly:AssemblyConfigurationAttribute("")];
-[assembly:AssemblyCompanyAttribute("")];
-[assembly:AssemblyProductAttribute("")];
-[assembly:AssemblyCopyrightAttribute("")];
-[assembly:AssemblyTrademarkAttribute("")];
-[assembly:AssemblyCultureAttribute("")];		
+[assembly:AssemblyDescriptionAttribute("")] ;
+[assembly:AssemblyConfigurationAttribute("")] ;
+[assembly:AssemblyCompanyAttribute("")] ;
+[assembly:AssemblyProductAttribute("")] ;
+[assembly:AssemblyCopyrightAttribute("")] ;
+[assembly:AssemblyTrademarkAttribute("")] ;
+[assembly:AssemblyCultureAttribute("")] ;
 
 //
 // Version information for an assembly consists of the following four values:
@@ -53,6 +53,6 @@ using namespace System::Runtime::CompilerServices;
 //       documentation for more information on this.
 //
 [assembly:AssemblyDelaySignAttribute(false)];
-[assembly:AssemblyKeyFileAttribute("")];
-[assembly:AssemblyKeyNameAttribute("")];
+[assembly:AssemblyKeyFileAttribute("")] ;
+[assembly:AssemblyKeyNameAttribute("")] ;
 

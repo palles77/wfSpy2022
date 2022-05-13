@@ -1,6 +1,6 @@
-// wfspyhook.h
-
 #pragma once
+
+using namespace System;
 
 namespace wfspy
 {
@@ -9,7 +9,7 @@ namespace wfspy
 	public:
 		void OnInstallHook(array<System::Byte>^ data) = 0;
 	};
-	
+
 	public ref class HookHelper
 	{
 	private:

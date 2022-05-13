@@ -1,8 +1,5 @@
 using System;
 using System.Drawing;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -14,18 +11,18 @@ namespace wfspy
 	/// </summary>
 	public class MainForm : System.Windows.Forms.Form
 	{
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Button details;
-		private System.Windows.Forms.Button close;
-		private System.Windows.Forms.TreeView windowTree;
-		private System.Windows.Forms.Button refresh;
-		private System.Windows.Forms.ImageList theImageList;
-		private System.Windows.Forms.GroupBox groupBox1;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.PictureBox pictureBox1;
+		private Label label1;
+		private Button details;
+		private Button close;
+		private TreeView windowTree;
+		private Button refresh;
+		private ImageList theImageList;
+		private GroupBox groupBox1;
+		private Label label2;
+		private Label label3;
+		private Label label4;
+		private Label label5;
+		private PictureBox pictureBox1;
 		private System.ComponentModel.IContainer components;
 		private WindowTreeBuilder windowTreeBuilder;
 
