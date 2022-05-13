@@ -9,3 +9,4 @@ Release/
 *.pdb
 *.dll
 *.ncb
+/.vs/wfspy
